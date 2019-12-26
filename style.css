@@ -15,6 +15,56 @@ footer {
 
 /*---------------GENERELT SLUT-----------*/
 
+/*---------------MENU--------------------*/
+
+/* unvisited link*/
+header nav a:link {
+    color: black;
+    text-decoration: none;
+    padding: 0.3rem 0.4rem;
+    font-size: 1.2rem;
+}
+
+/* mouse over link */
+header nav a:hover {}
+
+/* visited link */
+header nav a:visited {
+    color: black;
+}
+
+/* selected link*/
+header nav a:active {
+    color: black;
+}
+
+
+header nav {
+    margin-right: 2vw;
+    margin-top: 1vw;
+}
+
+header {
+    width: 100vw;
+    height: 7vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------MENU SLUT---------------*/
+
+
 /*------------LANDING PAGE---------------*/
 
 
