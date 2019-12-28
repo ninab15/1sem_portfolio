@@ -6,56 +6,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nina Berthelsen Portfolio</title>
     <link rel="stylesheet" href="style.css">
+
+
 </head>
 
 <body>
+
+    <!--
+   <header>
+       <nav>
+           <div id="menuknap">☰</div>
+           <ul id="menu" class="hidden">
+           <li><a href="forside.html">Forside</a></li>
+               <li> <a href="underside.html">Underside</a></li>
+           </ul>
+
+       </nav>
+   </header>
+-->
+
+
+    <!--
     <header>
         <nav>
-            <div class="topnav"><a href="index.html#home">Logo</a>
-                <div class="dropdown topnav">
-                    <a href="portfolio.html#portfolio">Portfolio</a>
+            <div class="topnav">
+                <div id="menuknap">☰</div>
+                <ul id="menu" class="hidden">
+                    <li><a href="index.html#home">Logo</a> </li>
+                    <li>
+                        <div class="dropdown topnav">
+                            <a href="portfolio.html#portfolio">Portfolio</a>
+                            <div class="dropdown-content">
+                                <a href="web.html">Web</a>
+                                <a href="ux.html">UX</a>
+                                <a href="animation.html">Animation</a>
+                                <a href="indhold.html">Indhold</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="om.html#om">Om</a> </li>
+                    <li><a href="kontakt.html#kontakt">Kontakt</a></li>
 
-                    <div class="dropdown-content">
-                        <a href="web.html">Web</a>
-                        <a href="ux.html">UX</a>
-                        <a href="animation.html">Animation</a>
-                        <a href="indhold.html">Indhold</a>
-                    </div>
-                </div>
 
-                <a href="om.html#om">Om</a>
-                <a href="kontakt.html#kontakt">Kontakt</a>
+
+
+                </ul>
+
             </div>
 
 
         </nav>
     </header>
+-->
+    <header>
+        <!------DESKTOP MENU------->
+        <div class="siteheader">
+            <a href="index.html">
+                <img src="" alt="logo">
+            </a>
+        </div>
+        <nav class="desktop">
+            <div class="dropdown">
+                <a href="portfolio.html#portfolio">Portfolio</a>
+                <div class="dropdown_content">
+                    <a href="web.html">Web</a>
+                    <a href="ux.html">UX</a>
+                    <a href="animation.html">Animation</a>
+                    <a href="indhold.html">Indhold</a>
+                </div>
+            </div>
+            <a href="om.html#om">Om</a>
+            <a href="kontakt.html#kontakt">Kontakt</a>
+        </nav>
+        <!----DESKTOP MENU SLUT---->
+        <!------MOBIL BURGERMENU--------->
+        <div class="mobilnav">
+            <a href="index.html">
+                <img src="" alt="logo">
+            </a>
+            <nav>
+                <div id="menuknap">☰</div>
+                <ul id="menu" class="hidden">
+                    <li><a href="portfolio.html#portfolio">Portfolio</a> </li>
+                    <li><a href="web.html">Web</a></li>
+                    <li><a href="ux.html">UX</a></li>
+                    <li><a href="animation.html">Animation</a></li>
+                    <li><a href="indhold.html">Indhold</a></li>
+                </ul>
+            </nav>
+        </div>
 
+        <section id="el_nido">
+            <div class="hero">
+                <img src="El%20nido.jpg" alt="el nido">
+                <h1 class="headline">Nina Berthelsen Portfolio</h1>
+            </div>
+        </section>
+    </header>
+
+    <div class="slider"></div>
 
     <section id="landing_page">
-        <div id="splash"></div>
+
 
         <h1>Projekter</h1>
 
-        <div class="sectionwrapper">
-            <div class="col image1">
-                <div class="col_text"></div>
-            </div>
-            <div class="col image2">
-                <div class="col_text"></div>
-            </div>
-            <div class="col image3">
-                <div class="col_text"></div>
-            </div>
-            <div class="col image4">
-                <div class="col_text"></div>
-            </div>
-        </div>
+
     </section>
 
     <button onclick="topFunction()" id="myBtn" title="Go_to_top">Top</button>
 
+    <!--    Bruges til at få animationer til at have samme tidslinje og ske på samme tid-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk=" crossorigin="anonymous"></script>
+
     <script src="script.js"></script>
 </body>
 
-<footer>© 2019 Nina Berthelsen</footer></html>
+<footer>© 2019 Nina Berthelsen</footer>
+
+</html>
