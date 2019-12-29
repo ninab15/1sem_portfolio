@@ -10,20 +10,53 @@
 
 <body>
     <header>
-        <nav>
-            <a href="index.html#home">Logo</a>
-            <a href="portfolio.html#portfolio">Portfolio</a>
+        <div class="siteheader">
+            <a href="index.html">
+                <img src="" alt="logo">
+            </a>
+        </div>
+        <nav class="desktop">
+            <div class="dropdown">
+                <a href="portfolio.html#portfolio">Portfolio</a>
+                <div class="dropdown_content">
+                    <a href="web.html">Web</a>
+                    <a href="ux.html">UX</a>
+                    <a href="animation.html">Animation</a>
+                    <a href="indhold.html">Indhold</a>
+                </div>
+            </div>
             <a href="om.html#om">Om</a>
             <a href="kontakt.html#kontakt">Kontakt</a>
         </nav>
-    </header>
+        <!----DESKTOP MENU SLUT---->
+        <!------MOBIL BURGERMENU--------->
+        <div id="menu_bar">
+            <div id="menu" onclick="onClickMenu()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+            <ul class="mobilenav" id="mobilenav">
+                <li><a href="portfolio.html#portfolio">Portfolio</a></li>
+                <li><a href="web.html" class="underline">Web</a></li>
+                <li><a href="ux.html" class="underline">UX</a></li>
+                <li><a href="animation.html" class="underline">Animation</a></li>
+                <li><a href="indhold.html" class="underline">Indhold</a></li>
+                <li><a href="om.html#om">Om</a></li>
+                <li> <a href="kontakt.html#kontakt">Kontakt</a></li>
+            </ul>
+        </div>
+        <div class="menu_bg" id="menu_bg"></div>
 
-    <section id="om"></section>
+
+        <section id="om"></section>
 
 
-    <button onclick="topFunction()" id="myBtn" title="Go_to_top">Top</button>
+        <button onclick="topFunction()" id="myBtn" title="Go_to_top">Top</button>
 
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
 
-<footer>© 2019 Nina Berthelsen</footer></html>
+<footer>© 2019 Nina Berthelsen</footer>
+
+</html>

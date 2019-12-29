@@ -1,26 +1,34 @@
 //BURGERMENU//
+//
+//window.addEventListener("load", sidenVises);
+//
+//function sidenVises() {
+//    console.log("sidenVises");
+//    document.querySelector("#menu_bar").addEventListener("click", toggleMenu);
+//}
+//
+//
+//function toggleMenu() {
+//    console.log("toggleMenu");
+//    document.querySelector("#menu_bar").classList.toggle("hidden");
+//
+//    let erSkjult = document.querySelector("#menu").classList.contains("hidden");
+//
+//    if (erSkjult == true) {
+//        document.querySelector("#menu").classList.add("hidden");
+//    } else {
+//        document.querySelector("#menu").classList.remove("hiddem");
+//    }
+//}
+//
 
-window.addEventListener("load", sidenVises);
 
-function sidenVises() {
-    console.log("sidenVises");
-    document.querySelector("#menuknap").addEventListener("click", toggleMenu);
+function onClickMenu() {
+    document.querySelector("#menu").classList.toggle("change");
+    document.querySelector("#mobilenav").classList.toggle("change");
+
+    document.querySelector("#menu_bg").classList.toggle("change_bg");
 }
-
-
-function toggleMenu() {
-    console.log("toggleMenu");
-    document.querySelector("#menu").classList.toggle("hidden");
-
-    let erSkjult = document.querySelector("#menu").classList.contains("hidden");
-
-    if (erSkjult == true) {
-        document.querySelector("#menuknap").textContent = "☰";
-    } else {
-        document.querySelector("#menuknap").textContent = "X";
-    }
-}
-
 //BURGERMENU SLUT//
 
 //TO THE TOP BUTTON//
@@ -51,6 +59,9 @@ function topFunction() {
 //TO THE TOP BUTTON SLUT//
 
 //CAROUSEL//
+
+
+
 
 
 //Når man klikker på venstra, rykker slides sig til venstre
