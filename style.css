@@ -262,18 +262,27 @@ section {
 
 h1 {
     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif, bold;
+    font-size: 1rem;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
 }
 
 a:link {
     font-family: 'Roboto Condensed', sans-serif;
 }
-
-
-
 
 
 /*----------------FONT SLUT--------------*/
@@ -386,6 +395,7 @@ section {
 
 .post_slider {
     border: 1px solid red;
+
 }
 
 .post_slider .post_wrapper {
@@ -393,6 +403,12 @@ section {
     height: 350px;
     margin: 0 auto;
     border: 1px dashed red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+
+
 }
 
 .post_slider .post_wrapper .post {
@@ -400,6 +416,8 @@ section {
     display: inline-block;
     width: 300px;
     height: 350px;
+    margin: 20px;
+
 
 }
 
@@ -410,6 +428,59 @@ section {
 /*-----------LANDING PAGE SLUT-----------*/
 
 /*----------------WEB--------------------*/
+
+#web {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: auto;
+    height: auto;
+    background: #f5f5f4;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#web .container {
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: auto;
+}
+
+#web .infotext {
+    flex-basis: 400px;
+    height: auto;
+    flex-grow: 3;
+    padding: 0 60px;
+    line-height: 1.8rem;
+
+
+}
+
+#web .image {
+    flex-basis: 400px;
+    flex-grow: 1;
+    margin-top: 70px;
+
+}
+
+#web .text {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -423,8 +494,90 @@ section {
 
 /*-----------------UX--------------------*/
 
+#ux {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: auto;
+    background: #f5f5f4;
+    display: flex;
+    flex-wrap: wrap;
+
+}
 
 
+#ux .container {
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 2000px;
+
+}
+
+#ux .infotext {
+    flex-basis: 800px;
+    height: auto;
+    flex-grow: 3;
+    padding: 0 100px;
+    line-height: 1.8rem;
+
+
+}
+
+#ux con2 {
+    flex-direction: column;
+}
+
+
+#ux .infotext li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+#ux .image {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+#ux .prototype {
+
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#ux .image_prototype {
+    background-image: url(prototype.JPG);
+    height: 400px;
+    width: 300px;
+}
+
+#ux .text {}
+
+#ux .img1 {
+    background-image: url(kea_global_explore.JPG);
+    height: 400px;
+    width: 300px;
+    background-repeat: no-repeat;
+}
+
+#ux .img2 {
+    background-image: url(kea_global_discover.JPG);
+    height: 400px;
+    width: 300px;
+    background-repeat: no-repeat;
+}
+
+#ux .img3 {
+    background-image: url(kea_global_uni.JPG);
+    height: 400px;
+    width: 300px;
+    background-repeat: no-repeat;
+}
 
 
 
@@ -434,6 +587,44 @@ section {
 /*----------------UX SLUT----------------*/
 
 /*------------ANIMATION------------------*/
+
+#animation {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: auto;
+    height: auto;
+    background: #f5f5f4;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#animation .container {
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: auto;
+}
+
+#animation .infotext {
+    flex-basis: 800px;
+    height: auto;
+    flex-grow: 3;
+    padding: 0 60px;
+    line-height: 1.8rem;
+
+}
+
+
+
+#animation .image {
+    flex-basis: 400px;
+    flex-grow: 1;
+    margin-top: 70px;
+
+}
+
 
 
 
@@ -448,6 +639,43 @@ section {
 /*-------------INDHOLD-------------------*/
 
 
+#indhold {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: auto;
+    height: auto;
+    background: #f5f5f4;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#indhold .container {
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: auto;
+}
+
+#indhold .infotext {
+    flex-basis: 400px;
+    height: auto;
+    flex-grow: 3;
+    padding: 0 60px;
+    line-height: 1.8rem;
+
+
+}
+
+#indhold .image {
+    flex-basis: 400px;
+    flex-grow: 1;
+    margin-top: 70px;
+
+}
+
+#indhold .text {}
 
 
 
@@ -460,7 +688,90 @@ section {
 
 /*----------------OM---------------------*/
 
+#om {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: auto;
+    background: #f5f5f4;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.overskrift {
+    font-size: 2.5rem;
+    margin: 0 0 0 100px;
+    text-align: start;
+}
+
+#om .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: auto;
+}
+
+#om .col_wide {
+    flex-basis: 400px;
+    height: auto;
+    flex-grow: 3;
+    padding: 0 60px;
+    line-height: 1.8rem;
+}
+
+#om .col_narrow {
+    flex-basis: 400px;
+    flex-grow: 1;
+    padding: 0 60px;
+    line-height: 1.8rem;
+    height: auto;
+
+}
+
+#om .skills {
+
+    flex-basis: 400px;
+    flex-grow: 1;
+    padding: 0 60px;
+    line-height: 1.8rem;
+    height: auto;
+
+}
+
+#om .uddannelse {
+
+    flex-basis: 400px;
+    height: 500px;
+    flex-grow: 3;
+    padding: 0 60px;
+    line-height: 1.8rem;
+}
+
+#om .intro {
+
+    height: 500px;
+    width: 1200px;
+    display: flex;
+}
+
+#om .billede {
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+
+#om .intro .navn {
+    flex-basis: 500px;
+    flex-grow: 3;
+
+
+}
+
+#om .intro .navn h2 {
+
+    text-align: center;
+    top: 25%;
+    position: relative;
+}
 
 
 
