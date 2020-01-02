@@ -510,7 +510,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     width: 1200px;
-    height: 2000px;
+    height: auto;
 
 }
 
@@ -552,27 +552,48 @@ section {
 
 #ux .image_prototype {
     background-image: url(prototype.JPG);
-    height: 400px;
+    height: 500px;
     width: 300px;
 }
 
 #ux .text {}
 
 #ux .img1 {
-    background-image: url(kea_global_explore.JPG);
+    background-image: url(prototype.JPG);
     height: 400px;
     width: 300px;
     background-repeat: no-repeat;
 }
 
 #ux .img2 {
-    background-image: url(kea_global_discover.JPG);
+    background-image: url(prototype_products.JPG);
     height: 400px;
     width: 300px;
     background-repeat: no-repeat;
 }
 
 #ux .img3 {
+    background-image: url(prototype_orderview.JPG);
+    height: 400px;
+    width: 300px;
+    background-repeat: no-repeat;
+}
+
+#ux .img4 {
+    background-image: url(kea_global_explore.JPG);
+    height: 400px;
+    width: 300px;
+    background-repeat: no-repeat;
+}
+
+#ux .img5 {
+    background-image: url(kea_global_discover.JPG);
+    height: 400px;
+    width: 300px;
+    background-repeat: no-repeat;
+}
+
+#ux .img6 {
     background-image: url(kea_global_uni.JPG);
     height: 400px;
     width: 300px;
@@ -619,18 +640,43 @@ section {
 
 
 #animation .image {
-    flex-basis: 400px;
-    flex-grow: 1;
-    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+
 
 }
 
+#animation .img1 {
+    background-image: url(reef_rescue.JPG);
+    height: 300px;
+    width: 500px;
+    background-repeat: no-repeat;
+}
 
+#animation .img2 {
+    background-image: url(RR_spil_side.JPG);
+    height: 300px;
+    width: 500px;
+    background-repeat: no-repeat;
+}
 
+#animation .img3 {
+    background-image: url(send_cutes_startside.JPG);
+    height: 300px;
+    width: 500px;
+    background-repeat: no-repeat;
+}
 
-
-
-
+#animation .img4 {
+    background-image: url(send_cutes_spilside.JPG);
+    height: 300px;
+    width: 500px;
+    background-repeat: no-repeat;
+}
 
 
 
