@@ -1,34 +1,24 @@
-//BURGERMENU//
-//
-//window.addEventListener("load", sidenVises);
-//
-//function sidenVises() {
-//    console.log("sidenVises");
-//    document.querySelector("#menu_bar").addEventListener("click", toggleMenu);
-//}
-//
-//
-//function toggleMenu() {
-//    console.log("toggleMenu");
-//    document.querySelector("#menu_bar").classList.toggle("hidden");
-//
-//    let erSkjult = document.querySelector("#menu").classList.contains("hidden");
-//
-//    if (erSkjult == true) {
-//        document.querySelector("#menu").classList.add("hidden");
-//    } else {
-//        document.querySelector("#menu").classList.remove("hiddem");
-//    }
-//}
-//
+//LOAD SIDEN//
 
+
+
+
+
+
+
+//LOAD SIDEN SLUT//
+
+
+//BURGERMENU //
 
 function onClickMenu() {
-    document.querySelector("#menu").classList.toggle("change");
+    document.querySelector("#menuknap").classList.toggle("change");
     document.querySelector("#mobilenav").classList.toggle("change");
 
     document.querySelector("#menu_bg").classList.toggle("change_bg");
 }
+
+
 //BURGERMENU SLUT//
 
 //TO THE TOP BUTTON//
@@ -57,23 +47,6 @@ function topFunction() {
 }
 
 //TO THE TOP BUTTON SLUT//
-
-//CAROUSEL//
-
-function slick() {
-    document.querySelector('.post_wrapper').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-    });
-};
-
-
-//Når man klikker på venstra, rykker slides sig til venstre
-//Når man klikker på venstra, rykker slides sig til venstre
-//Når man klikker på nav indicators, ryk til det rette slide
-
 
 //----------SPLASH BILLEDE--------------//
 

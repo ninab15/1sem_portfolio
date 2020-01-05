@@ -6,18 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700,900|Roboto+Condensed:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700,900/Roboto+Condensed:700&display=swap" rel="stylesheet">
 
+    <link rel="apple-touch-icon" sizes="180x180" href="myicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="myicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="myicons/favicon-16x16.png">
+    <link rel="manifest" href="myicons/site.webmanifest">
+    <link rel="shortcut icon" href="myicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="myicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
     <header class="hoved">
-        <div class="siteheader">
-            <a href="index.html">
-                <img src="" alt="logo">
-            </a>
-        </div>
-        <nav class="desktop">
+        <nav class="desktop hidden">
+            <a href="index.html">Forside</a>
             <div class="dropdown">
                 <a href="portfolio.html#portfolio">Portfolio</a>
                 <div class="dropdown_content">
@@ -28,75 +32,91 @@
                 </div>
             </div>
             <a href="om.html#om">Om</a>
-            <a href="kontakt.html#kontakt">Kontakt</a>
+
         </nav>
         <!----DESKTOP MENU SLUT---->
         <!------MOBIL BURGERMENU--------->
         <div id="menu_bar">
-            <div id="menu" onclick="onClickMenu()">
+            <div id="menuknap" class="hidden" onclick="onClickMenu()">
                 <div id="bar1" class="bar"></div>
                 <div id="bar2" class="bar"></div>
                 <div id="bar3" class="bar"></div>
             </div>
             <ul class="mobilenav" id="mobilenav">
+                <li> <a href="index.html">Forside</a></li>
                 <li><a href="portfolio.html#portfolio">Portfolio</a></li>
                 <li><a href="web.html" class="underline">Web</a></li>
                 <li><a href="ux.html" class="underline">UX</a></li>
                 <li><a href="animation.html" class="underline">Animation</a></li>
                 <li><a href="indhold.html" class="underline">Indhold</a></li>
                 <li><a href="om.html#om">Om</a></li>
-                <li> <a href="kontakt.html#kontakt">Kontakt</a></li>
             </ul>
         </div>
         <div class="menu_bg" id="menu_bg"></div>
-
     </header>
 
-    <h1>Portfolio</h1>
-    <h2>Grundlæggende indhold</h2>
 
     <section id="indhold">
-        <div class="infotext_top">
-            <h3>// 05.01.01 Pilotvideo</h3>
+        <div class="container">
+            <div class="overskrift">
+                <h1>Portfolio</h1>
+                <h2>Grundlæggende indhold</h2>
 
-            <p>I denne opgave skulle vi finde en person vi kunne interviewe omkring en hobby eller passion. Vi skulle filme og redigere en video med b-rolls, samt benytte os af en knapnåls microfon til at optage lyd på interviewet.
-
-                Vi blev introduceret til Adobe Premiere Pro til redigerings og klippe værktøj, som jeg anvendte til at redigere og klippe mastershot og B-rolls samt at ligge den eksterne lydoptagelse af interviewet ind og baggrundsmusik. </p>
-
-
+            </div>
 
 
-        </div>
-        <div class="video">
-            <video width="550px" height="350px" controls>
-                <source src=pilotvideo.mp4 type="video/mp4"></video>
-        </div>
+            <div class="infotext_top">
+                <h3>// 05.01.01 Pilotvideo</h3>
 
-        <div class="infotext">
-            <h3>// 05.03.01 Redesign </h3>
+                <p>I denne opgave skulle vi finde en person vi kunne interviewe omkring en hobby eller passion. Vi skulle filme og redigere en video med b-rolls, samt benytte os af en knapnåls microfon til at optage lyd på interviewet.
 
-            <p>I denne del af forløbet indhold skulle vi I grupper finde en virksomhed hvor vi skulle lave et redesign af deres website. Dette var første gang vi skulle tage kontakt til en virksomhed selv hvor vi skulle arrangere et møde og tage ud på deres lokation og skyde en video samt tage billeder til indhold på den redesignede website. </p>
+                    Vi blev introduceret til Adobe Premiere Pro til redigerings og klippe værktøj, som jeg anvendte til at redigere og klippe mastershot og B-rolls samt at ligge den eksterne lydoptagelse af interviewet ind og baggrundsmusik. </p>
 
-            <p>Vi blev introduceret til git og github for at kunne arbejde sammen I grupper, så vi alle kunne have nyeste versioner af filerne vi alle arbejde i. Det fungere super godt, da vi fik det til at køre og lærte at bruge github. Vi reserverede plads til hinanden for at sikre, at der ikke var noget I filerne der blev overskrevet af hinanden. </p>
 
-            <p>
-                Vi benyttede os af en BERT test og 5 sekunders test af virksomhedens eksisterende website for at få et grundlag og indblik i om der var problematikker ved websitet vi ikke selv havde set skulle ændres.
 
-                Vi fik desværre ikke afsluttet projektet med en BERT test af det nye redesignede website, men helt klart noget jeg vil gøre næste gang for at sørge for at at brugerene er tættere på den opfattelsen af virksomheden, som de virksomeheden selv ønsker at have.
-            </p>
 
-            <p>Inden vi tog ud på vores virksomheds lokation for at skyde video og billeder til indhold. Havde vi lagt en plan for hvilke billeder vi skulle have og lavet et storyboard og nedskrevet shots vi skulle have til videoproduktionen.
+            </div>
+            <div class="video video_top">
+                <video width="550" height="350" controls>
+                    <source src=pilotvideo.mp4 type="video/mp4"></video>
+            </div>
 
-                Vi arbejde rigtigt godt sammen I gruppen. Vi havde lavet wireframes og layoutdiagram til vores redesign og efterfølgende tildelte vi forskellige sider der skulle kodes. En af de sider jeg kodet var startsiden samt stod for at redigere splash videoen vi der ses på startsiden. Selvom vi havde delt nogle opgaver ud til hinanden har vi alle kommet med indput til de forskellige ting vi har lavet hver for sig, så det er blevet godkendt I gruppen. </p>
+            <div class="infotext">
+                <h3>// 05.03.01 Redesign </h3>
 
-        </div>
+                <p>I denne del af forløbet indhold skulle vi I grupper finde en virksomhed hvor vi skulle lave et redesign af deres website. Dette var første gang vi skulle tage kontakt til en virksomhed selv hvor vi skulle arrangere et møde og tage ud på deres lokation og skyde en video samt tage billeder til indhold på den redesignede website. </p>
 
-        <div class="video">
-            <video width="550px" height="350px" controls>
-                <source src=mjoelner.mp4 type="video/mp4">
-            </video>
+                <p>Vi blev introduceret til git og github for at kunne arbejde sammen I grupper, så vi alle kunne have nyeste versioner af filerne vi alle arbejde i. Det fungere super godt, da vi fik det til at køre og lærte at bruge github. Vi reserverede plads til hinanden for at sikre, at der ikke var noget I filerne der blev overskrevet af hinanden. </p>
+
+                <p>
+                    Vi benyttede os af en BERT test og 5 sekunders test af virksomhedens eksisterende website for at få et grundlag og indblik i om der var problematikker ved websitet vi ikke selv havde set skulle ændres.
+
+                    Vi fik desværre ikke afsluttet projektet med en BERT test af det nye redesignede website, men helt klart noget jeg vil gøre næste gang for at sørge for at at brugerene er tættere på den opfattelsen af virksomheden, som de virksomeheden selv ønsker at have.
+                </p>
+
+                <p>Inden vi tog ud på vores virksomheds lokation for at skyde video og billeder til indhold. Havde vi lagt en plan for hvilke billeder vi skulle have og lavet et storyboard og nedskrevet shots vi skulle have til videoproduktionen.
+
+                    Vi arbejde rigtigt godt sammen I gruppen. Vi havde lavet wireframes og layoutdiagram til vores redesign og efterfølgende tildelte vi forskellige sider der skulle kodes. En af de sider jeg kodet var startsiden samt stod for at redigere splash videoen vi der ses på startsiden. Selvom vi havde delt nogle opgaver ud til hinanden har vi alle kommet med indput til de forskellige ting vi har lavet hver for sig, så det er blevet godkendt I gruppen. </p>
+            </div>
+
             <div class="image">
-                <img src="mjolner_startside.jpg">
+                <img src="mjolner_startside.jpg" alt="website">
+            </div>
+            <div class="video">
+                <div class="titel">
+                    <h3>Splash video</h3>
+                </div>
+                <video width="500" height="400" controls>
+                    <source src=mjoelner.mp4 type="video/mp4">
+                </video>
+            </div>
+            <div class="video video_right">
+                <div class="titel">
+                    <h3>Produkt video</h3>
+                </div>
+                <video width="500" height="400" controls>
+                    <source src=kikkert.mp4 type="video/mp4">
+                </video>
             </div>
         </div>
     </section>
@@ -104,6 +124,9 @@
     <button onclick="topFunction()" id="myBtn" title="Go_to_top">Top</button>
 
     <script src="script.js"></script>
+    <footer>© 2019 Nina Berthelsen</footer>
 </body>
 
-<footer>© 2019 Nina Berthelsen</footer></html>
+
+
+</html>

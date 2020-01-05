@@ -148,7 +148,7 @@ section {
 }
 */
 
-#menu {
+#menuknap {
     width: 35px;
     height: 30px;
     margin: 30px 20px 20px;
@@ -175,6 +175,7 @@ section {
 .mobilenav li a {
     color: #fff;
     text-decoration: none;
+    margin-left: 30px;
 }
 
 .mobilenav li a:hover {
@@ -184,6 +185,8 @@ section {
 .mobilenav li {
     list-style: none;
     padding: 16px 0;
+
+
 }
 
 .mobilenav {
@@ -204,9 +207,7 @@ section {
     z-index: 1;
     width: 0;
     height: 0;
-
-    background: radial-gradient(circle, rgba(57, 201, 201, 0.69), rgba(21, 102, 184, 0.3));
-    border-radius: 40% 0 0 40%;
+    background: linear-gradient(to right, rgba(27, 176, 192, 0.65), rgba(13, 151, 163, 0.7));
     transition: 0.3s ease;
 }
 
@@ -278,6 +279,9 @@ a:link {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+h3 a {
+    color: black;
+}
 
 /*----------------FONT SLUT--------------*/
 
@@ -307,16 +311,20 @@ header nav a:active {
 
 
 header nav {
-    margin-right: 2vw;
-    margin-top: 1vw;
     display: flex;
     justify-content: flex-end;
     min-height: 10vh;
 }
 
+header nav a {
+    margin-top: 1vw;
+}
 
+.dropdown {
+    margin: 1.3vw 1vw;
+    padding: 0.3rem 0.4rem;
 
-
+}
 
 
 /*---------------MENU SLUT---------------*/
@@ -325,13 +333,11 @@ header nav {
 /*------------LANDING PAGE---------------*/
 
 .logo {
-    width: 100px;
-    height: 100px;
+    height: 10px;
 
 }
 
 .desktop {
-    margin: 1vw -2vw 0;
     top: 0;
     left: 0;
     width: 100%;
@@ -340,7 +346,8 @@ header nav {
 }
 
 .hoved {
-    background: linear-gradient(to right, #1BB0C0, #0D97A3);
+    background: linear-gradient(to right, rgba(27, 176, 192, 0.65), rgba(13, 151, 163, 0.7));
+
 }
 
 
@@ -397,35 +404,113 @@ section {
 
 }
 
-/*------CAROUSEL---------*/
-/*
 
-.post_slider {
-    border: 1px solid red;
+/*-----------LANDING PAGE SLUT-----------*/
 
-}
+/*-------------PORTFOLIO-----------------*/
 
-.post_slider .post_wrapper {
-    width: 84%;
-    height: 350px;
+
+#portfolio {
     margin: 0 auto;
-    border: 1px dashed red;
+    max-width: 1400px;
+    height: auto;
+    height: auto;
+
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    overflow: hidden;
+}
 
+
+
+#portfolio .container {
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 1000px;
+    padding: 0 60px;
+
+    justify-content: center;
+    align-content: space-around;
+}
+
+#portfolio .col {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
+#portfolio .boks {
+    position: relative;
+    flex-basis: 300px;
+    flex-grow: 1;
+    height: 350px;
+    width: 150px;
+    margin: 15px 25px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+#portfolio .text {
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    text-align: center;
+    height: 50px;
+    width: 350px;
+    background: linear-gradient(to right, rgba(27, 176, 192, 0.65), rgba(13, 151, 163, 0.7));
+    top: 50%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 350px;
+    width: 350px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.30);
+}
+
+#portfolio .tema1 {}
+
+#portfolio .tema2 {
+    background: blue;
+}
+
+
+#portfolio .tema3 {
+    background: green;
 
 }
 
-.post_slider .post_wrapper .post {
-    background: lightgreen;
-    display: inline-block;
-    width: 300px;
-    height: 350px;
-    margin: 20px;
+#portfolio .tema4 {
+    background: pink;
+}
 
+.boks:hover .overlay {
+    opacity: 1;
+}
 
+.boks:hover {
+    transform: scale(1.09);
+    transition: .3s ease;
+}
+
+/*
+.tema2:hover .overlay {
+    opacity: 1;
+}
+
+.tema3:hover .overlay {
+    opacity: 1;
+}
+
+.tema4:hover .overlay {
+    opacity: 1;
 }
 */
 
@@ -433,7 +518,9 @@ section {
 
 
 
-/*-----------LANDING PAGE SLUT-----------*/
+
+
+/*------------PORTFOLIO SLUT-------------*/
 
 /*----------------WEB--------------------*/
 
@@ -472,7 +559,12 @@ section {
 }
 
 
-
+.overskrift {
+    flex-basis: 1000px;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0 60px;
+}
 
 
 
@@ -521,7 +613,7 @@ section {
     flex-basis: 800px;
     height: auto;
     flex-grow: 3;
-    padding: 0 100px;
+    padding: 0 60px;
     line-height: 1.8rem;
 }
 
@@ -706,7 +798,7 @@ section {
 #indhold .infotext_top {
     flex-basis: 500px;
     height: auto;
-    flex-grow: 3;
+    flex-grow: 1;
     padding: 0 60px;
     line-height: 1.8rem;
 
@@ -715,8 +807,7 @@ section {
 #indhold .infotext {
     flex-basis: 500px;
     height: auto;
-    flex-grow: 3;
-    margin-top: 10vw;
+    flex-grow: 1;
     padding: 0 60px;
     line-height: 1.8rem;
 
@@ -727,10 +818,12 @@ section {
     flex-basis: 500px;
     height: auto;
     flex-grow: 1;
-    margin-top: 10vw
+    padding: 0 60px;
 }
 
-
+#indhold .video_top {
+    margin-bottom: 12vw;
+}
 
 #indhold img {
     margin: 5vw 0 5vw;
@@ -738,7 +831,9 @@ section {
 }
 
 
-
+#indhold .video_right {
+    margin-left: 5px;
+}
 
 
 
@@ -752,15 +847,9 @@ section {
     margin: 0 auto;
     max-width: 1400px;
     height: auto;
-    background: #f5f5f4;
+
     display: flex;
     flex-wrap: wrap;
-}
-
-.overskrift {
-    font-size: 2.5rem;
-    margin: 0 0 0 100px;
-    text-align: start;
 }
 
 #om .container {
@@ -867,10 +956,22 @@ section {
     }
 }
 
+@media only screen and (max-width: 600px) {
+
+    #menuknap {
+        opacity: 1;
+    }
+
+}
 
 
+@media only screen and (min-width: 600px) {
 
+    .desktop {
+        opacity: 1;
+    }
 
+}
 
 
 

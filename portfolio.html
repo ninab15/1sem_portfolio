@@ -8,16 +8,21 @@
     <link rel="stylesheet" href="style.css">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700,900|Roboto+Condensed:700&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="myicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="myicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="myicons/favicon-16x16.png">
+    <link rel="manifest" href="myicons/site.webmanifest">
+    <link rel="shortcut icon" href="myicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="myicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
     <header class="hoved">
-        <div class="siteheader">
-            <a href="index.html">
-                <img src="" alt="logo">
-            </a>
-        </div>
-        <nav class="desktop">
+        <nav class="desktop hidden">
+            <a href="index.html">Forside</a>
             <div class="dropdown">
                 <a href="portfolio.html#portfolio">Portfolio</a>
                 <div class="dropdown_content">
@@ -28,38 +33,62 @@
                 </div>
             </div>
             <a href="om.html#om">Om</a>
-            <a href="kontakt.html#kontakt">Kontakt</a>
+
         </nav>
         <!----DESKTOP MENU SLUT---->
         <!------MOBIL BURGERMENU--------->
         <div id="menu_bar">
-            <div id="menu" onclick="onClickMenu()">
+            <div id="menuknap" class="hidden" onclick="onClickMenu()">
                 <div id="bar1" class="bar"></div>
                 <div id="bar2" class="bar"></div>
                 <div id="bar3" class="bar"></div>
             </div>
             <ul class="mobilenav" id="mobilenav">
+                <li> <a href="index.html">Forside</a></li>
                 <li><a href="portfolio.html#portfolio">Portfolio</a></li>
                 <li><a href="web.html" class="underline">Web</a></li>
                 <li><a href="ux.html" class="underline">UX</a></li>
                 <li><a href="animation.html" class="underline">Animation</a></li>
                 <li><a href="indhold.html" class="underline">Indhold</a></li>
                 <li><a href="om.html#om">Om</a></li>
-                <li> <a href="kontakt.html#kontakt">Kontakt</a></li>
             </ul>
         </div>
         <div class="menu_bg" id="menu_bg"></div>
-
     </header>
 
-    <h1>Portfolio</h1>
 
     <section id="portfolio">
         <div class="container">
-            <div class="col tema1"></div>
-            <div class="col tema2"></div>
-            <div class="col tema3"></div>
-            <div class="col tema4"></div>
+            <div class="overskrift">
+                <h1>Portfolio</h1>
+            </div>
+            <div class="col">
+                <div class="boks">
+                    <img src="SVG/stilartssite.jpg" alt="billede">
+                    <div class="overlay">
+
+                    </div>
+                </div>
+                <div class="boks tema2">
+                    <a href="ux.html">
+                        <div class="overlay">
+                            <div class="text">UX</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="boks tema3">
+                    <div class="overlay">
+                        <div class="text">Animation</div>
+                    </div>
+                </div>
+                <div class="boks tema4">
+                    <div class="overlay">
+                        <div class="text">Indhold</div>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </section>
 
@@ -68,4 +97,6 @@
     <script src="script.js"></script>
 </body>
 
-<footer>© 2019 Nina Berthelsen</footer></html>
+<footer>© 2019 Nina Berthelsen</footer>
+
+</html>
