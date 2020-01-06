@@ -10,6 +10,16 @@
 
 
 //BURGERMENU //
+//window.addEventListener("load", pageLoad);
+//
+//function pageLoad() {
+//    console.log("pageLoad");
+//
+//    document.querySelector("#menuknap").addEventListener("click", onClickMenu);
+//
+//    document.querySelector("#desktop").classList.contains("hidden", removeclick)
+//}
+
 
 function onClickMenu() {
     document.querySelector("#menuknap").classList.toggle("change");
@@ -17,6 +27,11 @@ function onClickMenu() {
 
     document.querySelector("#menu_bg").classList.toggle("change_bg");
 }
+
+//function removeclick {
+//    console.log("removeclick");
+//    document.querySelector("#menuknap").removeEventListener("click", )
+//}
 
 
 //BURGERMENU SLUT//
