@@ -1,17 +1,20 @@
 //LOAD SIDEN//
 
-
+window.addEventListener("load", pageLoad);
 //LOAD SIDEN SLUT//
 
-window.addEventListener("load", pageLoad);
+
 
 function pageLoad() {
-    console.log("pageLoad");
+    console.log('pageLoad');
+
 
     document.querySelector(".slider").classList.add("slide");
 
-        document.querySelector(".hero").classList.add("slide");
+    document.querySelector(".hero").classList.add("slide");
+
     document.querySelector(".landing_header").classList.add("splash");
+
 }
 
 
@@ -22,11 +25,6 @@ function onClickMenu() {
 
     document.querySelector("#menu_bg").classList.toggle("change_bg");
 }
-
-//function removeclick {
-//    console.log("removeclick");
-//    document.querySelector("#menuknap").removeEventListener("click", )
-//}
 
 
 //BURGERMENU SLUT//
@@ -55,38 +53,3 @@ function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-
-//TO THE TOP BUTTON SLUT//
-
-//----------SPLASH BILLEDE--------------//
-//
-//const hero = document.querySelector('.hero');
-//const slider = document.querySelector('.slider');
-//const headline = document.querySelector('.hero');
-//
-//
-//const tl = new TimelineMax();
-//
-//tl.fromTo(hero, 1, {
-//        height: "0%"
-//    }, {
-//        height: "80%",
-//        ease: Power2.easeInOut
-//    }).fromTo(hero, 1.2, {
-//        width: "100%"
-//    }, {
-//        width: "80%",
-//        ease: Power2.easeInOut
-//    }).fromTo(slider, 1.2, {
-//        x: "-100%"
-//    }, {
-//        x: "0%",
-//        ease: Power2.easeInOut
-//    }, "-=1.2")
-//    .fromTo(headline, 0.5, {
-//        opacity: 0,
-//        x: 30
-//    }, {
-//        opacity: 1,
-//        x: 0
-//    }, "-=0.5");
