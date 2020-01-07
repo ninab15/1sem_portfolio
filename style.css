@@ -454,22 +454,6 @@ section {
     background-color: rgba(0, 0, 0, 0.30);
 }
 
-#portfolio .tema1 {}
-
-#portfolio .tema2 {
-    background: blue;
-}
-
-
-#portfolio .tema3 {
-    background: green;
-
-}
-
-#portfolio .tema4 {
-    background: pink;
-}
-
 .boks:hover .overlay {
     opacity: 1;
 }
@@ -489,7 +473,7 @@ section {
     max-width: 1400px;
     height: auto;
     height: auto;
-    background: #f5f5f4;
+
     display: flex;
     flex-wrap: wrap;
 }
@@ -517,6 +501,7 @@ section {
     flex-grow: 1;
     margin-top: 70px;
     height: 258px;
+    font-family:
 
 }
 
@@ -531,13 +516,14 @@ section {
 
 #web .text {
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: relative;
     text-align: center;
     height: 50px;
     width: 500px;
     background: linear-gradient(to right, rgba(27, 176, 192, 0.65), rgba(13, 151, 163, 0.7));
     top: 50%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .overlay_web {
@@ -587,7 +573,6 @@ section {
     margin: 0 auto;
     max-width: 1400px;
     height: auto;
-    background: #f5f5f4;
     display: flex;
     flex-wrap: wrap;
 }
@@ -623,7 +608,7 @@ section {
     height: auto;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 50px;
+    margin: 50px 0;
 }
 
 #ux .prototype {
@@ -631,17 +616,14 @@ section {
     flex-grow: 1;
 }
 
-#ux .image_prototype {
-    background-image: url(prototype.JPG);
-    height: 400px;
-    width: 300px;
-}
+
 
 #ux .img1 {
     background-image: url(prototype.JPG);
     height: 430px;
     width: 200px;
     background-repeat: no-repeat;
+    margin-bottom: 30px;
 }
 
 #ux .img2 {
@@ -649,6 +631,7 @@ section {
     height: 430px;
     width: 200px;
     background-repeat: no-repeat;
+    margin-bottom: 30px;
 }
 
 #ux .img3 {
@@ -656,6 +639,7 @@ section {
     height: 430px;
     width: 200px;
     background-repeat: no-repeat;
+    margin-bottom: 30px;
 }
 
 #ux .img4 {
@@ -663,6 +647,7 @@ section {
     height: 430px;
     width: 200px;
     background-repeat: no-repeat;
+    margin-bottom: 30px;
 }
 
 #ux .img5 {
@@ -670,6 +655,7 @@ section {
     height: 430px;
     width: 200px;
     background-repeat: no-repeat;
+    margin-bottom: 30px;
 }
 
 #ux .img6 {
@@ -677,6 +663,7 @@ section {
     height: 430px;
     width: 200px;
     background-repeat: no-repeat;
+    margin-bottom: 30px;
 }
 
 
@@ -693,7 +680,6 @@ section {
     max-width: 1400px;
     height: auto;
     height: auto;
-    background: #f5f5f4;
     display: flex;
     flex-wrap: wrap;
 }
@@ -769,7 +755,6 @@ section {
     margin: 0 auto;
     max-width: 1400px;
     height: auto;
-    background: #f5f5f4;
     display: flex;
     flex-wrap: wrap;
 }
@@ -875,8 +860,8 @@ section {
 
 
 #om .navn img {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 }
 
 #om .heading {
@@ -921,7 +906,6 @@ section {
 }
 
 #om .uddannelse {
-
     flex-basis: 400px;
     height: 500px;
     flex-grow: 3;
@@ -931,13 +915,14 @@ section {
 
 #om .intro {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     max-width: 1200px;
+    margin-top: 60px;
 }
 
 #om .billede {
     flex-basis: 400px;
-    margin-left: 60px;
+    margin: 0 60px;
 
 }
 
@@ -946,19 +931,37 @@ section {
 }
 
 #om .intro .navn {
-    flex-basis: 400px;
-    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0 60px;
 }
 
 #om .intro .navn h2 {
-
-    /*    text-align: center;*/
-    top: 25%;
+    padding-top: 60px;
+    margin: 0;
     position: relative;
     font-size: 3rem;
-    padding: 0 99px;
 }
 
+
+
+#om .row {
+    flex-basis: 100px;
+    flex-direction: row;
+    width: 400px;
+    margin-top: 20px;
+}
+
+#om .column1 {
+    flex-basis: 50px;
+    flex-grow: 1;
+}
+
+#om .column2 {
+    flex-basis: 50px;
+    flex-grow: 2;
+}
 
 
 /*----------------OM SLUT----------------*/

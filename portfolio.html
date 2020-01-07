@@ -37,8 +37,8 @@
         </nav>
         <!----DESKTOP MENU SLUT---->
         <!------MOBIL BURGERMENU--------->
-        <div id="menu_bar">
-            <div id="menuknap" class="hidden" onclick="onClickMenu()">
+        <div id="menu_bar" class="hidden">
+            <div id="menuknap" onclick="onClickMenu()">
                 <div id="bar1" class="bar"></div>
                 <div id="bar2" class="bar"></div>
                 <div id="bar3" class="bar"></div>
@@ -53,38 +53,36 @@
                 <li><a href="om.html#om">Om</a></li>
             </ul>
         </div>
-        <div class="menu_bg" id="menu_bg"></div>
+        <div class="menu_bg hidden" id="menu_bg"></div>
     </header>
 
 
     <section id="portfolio">
         <div class="container">
-            <div class="overskrift">
+            <div class="heading">
                 <h1>Portfolio</h1>
             </div>
             <div class="col">
                 <div class="boks">
-                    <img src="SVG/stilartssite.jpg" alt="billede">
-                    <div class="overlay">
-
-                    </div>
-                </div>
-                <div class="boks tema2">
-                    <a href="ux.html">
-                        <div class="overlay">
-                            <div class="text">UX</div>
-                        </div>
+                    <a href="web.html"><img src="SVG/web.svg" alt="billede">
+                        <div class="overlay"></div>
                     </a>
                 </div>
-                <div class="boks tema3">
-                    <div class="overlay">
-                        <div class="text">Animation</div>
-                    </div>
+                <div class="boks">
+                    <a href="ux.html"><img src="SVG/UX.svg" alt="ux">
+                        <div class="overlay"></div>
+                    </a>
                 </div>
-                <div class="boks tema4">
-                    <div class="overlay">
-                        <div class="text">Indhold</div>
-                    </div>
+                <div class="boks">
+                    <a href="animation.html"><img src="SVG/Animation.svg" alt="animation">
+                        <div class="overlay"></div>
+                    </a>
+                </div>
+                <div class="boks">
+                    <a href="indhold.html"><img src="SVG/Content.svg" alt="indhold">
+                        <div class="overlay">
+                        </div>
+                    </a>
                 </div>
 
             </div>
@@ -97,6 +95,4 @@
     <script src="script.js"></script>
 </body>
 
-<footer>© 2019 Nina Berthelsen</footer>
-
-</html>
+<footer>© 2019 Nina Berthelsen</footer></html>
