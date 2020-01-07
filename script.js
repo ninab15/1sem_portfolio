@@ -11,8 +11,9 @@ function pageLoad() {
     document.querySelector("#el_nido").classList.add("slide");
 
     document.querySelector(".hero").classList.add("splash");
-
+    document.querySelector(".landing_header").classList.add("splash");
 }
+
 
 
 function onClickMenu() {

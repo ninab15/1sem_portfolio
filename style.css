@@ -285,15 +285,12 @@ header nav a:active {
 header nav {
     display: flex;
     justify-content: flex-end;
-    height: 10vh;
-    /*
-    background: linear-gradient(to right, rgba(27, 176, 192, 0.65), rgba(13, 151, 163, 0.7));
-    z-index: -40;
-*/
+
 }
 
 header nav a {
     margin-top: 1vw;
+
 }
 
 
@@ -321,6 +318,11 @@ header nav a {
     }
 }
 
+.landing_header {
+    position: relative;
+    background: linear-gradient(to right, rgba(27, 176, 192, 0.65), rgba(13, 151, 163, 0.7));
+
+}
 
 .desktop {
     top: 0;
@@ -331,7 +333,7 @@ header nav a {
 }
 
 .hoved {
-    background: linear-gradient(to right, rgba(27, 176, 192, 0.65), rgba(13, 151, 163, 0.7));
+    background: #29A7B3;
 
 }
 
@@ -340,10 +342,10 @@ header nav a {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background: linear-gradient(to right, rgba(27, 176, 192, 0.65), rgba(13, 151, 163, 0.7));
-    z-index: -3;
+    z-index: -102;
 
 
 }
@@ -379,10 +381,12 @@ section {
 .hero {
 
     position: relative;
-    margin-bottom: 20vw;
+    margin-bottom: 10vw;
     z-index: -1;
 
 }
+
+
 
 .splash {
     animation-name: splash_kf;
@@ -558,7 +562,7 @@ section {
     flex-grow: 1;
     margin-top: 70px;
     height: 258px;
-    font-family:
+
 
 }
 
