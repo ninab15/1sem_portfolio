@@ -549,7 +549,8 @@ section {
     flex-basis: 500px;
     flex-grow: 1;
     margin-top: 70px;
-    width: 100%;
+    width: 500px;
+    height: 300px;
 
 
 }
@@ -636,8 +637,12 @@ section {
     flex-basis: 800px;
     height: auto;
     flex-grow: 3;
-    /*    padding: 0 60px;*/
+    padding: 0 60px;
     line-height: 1.8rem;
+}
+
+#ux .overskrift {
+    padding: 0 60px;
 }
 
 #ux con2 {
