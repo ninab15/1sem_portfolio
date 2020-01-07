@@ -46,33 +46,6 @@ footer {
 
 }
 
-/*
-@media only screen and (max-width: 600px) {
-    #portfolio .container {
-        max-width: 30rem;
-        height: auto;
-    }
-
-    #portfolio .col {
-        width: 15rem;
-        height: auto;
-    }
-
-    .boks {
-        width: 15.625rem;
-        height: 15.625rem;
-    }
-
-    #portfolio .boks img {
-        width: 15.625rem;
-        height: 15.625rem;
-    }
-
-    .overlay {
-        width: 15.625rem;
-        height: 15.625rem;
-    }
-}*/
 
 
 /*-------------SCROLL TO TOP-------------*/
@@ -373,21 +346,8 @@ header nav a {
 
 /*------------LANDING PAGE---------------*/
 
-@media only screen and (min-width: 500px) {
 
-    .hero {
-        width: 90vw;
-        height: 40vh;
-    }
-}
 
-@media only screen and (min-width: 1200px) {
-
-    .hero {
-        width: 60vw;
-        height: 40vh;
-    }
-}
 
 .landing_header {
     position: relative;
@@ -453,8 +413,11 @@ section {
     position: relative;
     margin-bottom: 10vw;
     z-index: -1;
+    width: 90vw;
+    height: 40vh;
 
 }
+
 
 
 
@@ -1126,7 +1089,13 @@ section {
     }
 }
 
+@media only screen and (min-width: 1000px) {
 
+    .hero {
+        width: 60vw;
+        height: 40vh;
+    }
+}
 
 
 
