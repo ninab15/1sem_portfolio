@@ -513,8 +513,7 @@ section {
     flex-wrap: wrap;
     flex-basis: 300px;
     flex-grow: 1;
-    height: 350px;
-    width: 150px;
+
     margin: 15px 25px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
@@ -1106,15 +1105,35 @@ section {
     }
 }
 
-@media only screen and (max-width: 600px) {
 
-    #indhold .infotext,
-    .image {
+@media only screen and (max-width: 600px) {
+    #portfolio .container {
+        width: 500px;
+        height: auto;
+    }
+
+    #portfolio .col {
         width: 300px;
+        height: auto;
+    }
+
+    .boks {
+        width: 250px;
+        height: 250px;
+    }
+
+    #portfolio .boks img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .overlay {
+        width: 250px;
+        height: 250px;
     }
 }
 
-
+@media only screen and (max-width: 600px) {}
 
 
 
