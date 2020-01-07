@@ -8,9 +8,9 @@ window.addEventListener("load", pageLoad);
 function pageLoad() {
     console.log("pageLoad");
 
-    document.querySelector("#el_nido").classList.add("slide");
+    document.querySelector(".slider").classList.add("slide");
 
-    document.querySelector(".hero").classList.add("splash");
+        document.querySelector(".hero").classList.add("slide");
     document.querySelector(".landing_header").classList.add("splash");
 }
 

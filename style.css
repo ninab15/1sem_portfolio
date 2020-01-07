@@ -21,6 +21,8 @@ img {
 
 /*---------------GENERELT SLUT-----------*/
 
+
+
 /*-------------SCROLL TO TOP-------------*/
 
 #myBtn {
@@ -259,6 +261,10 @@ h3 a {
 
 /*---------------MENU--------------------*/
 
+
+
+
+
 /* unvisited link*/
 header nav a:link {
     color: white;
@@ -301,7 +307,6 @@ header nav a {
 
 /*------------LANDING PAGE---------------*/
 
-
 @media only screen and (min-width: 500px) {
 
     .hero {
@@ -333,17 +338,17 @@ header nav a {
 }
 
 .hoved {
-    background: #29A7B3;
-
+    background: linear-gradient(to right, rgba(27, 176, 192, 0.65), rgba(13, 151, 163, 0.7));
 }
+
 
 
 .slider {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 689px;
     background: linear-gradient(to right, rgba(27, 176, 192, 0.65), rgba(13, 151, 163, 0.7));
     z-index: -102;
 
@@ -352,7 +357,7 @@ header nav a {
 
 .slide {
     animation-name: slide_kf;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-iteration-count: 1;
 
 }
@@ -371,7 +376,7 @@ header nav a {
 
 section {
     display: flex;
-    height: 75vh;
+    height: 85vh;
     width: 100vw;
     justify-content: center;
     align-items: center;
@@ -440,7 +445,31 @@ section {
 /*-----------LANDING PAGE SLUT-----------*/
 
 /*-------------PORTFOLIO-----------------*/
+@media only screen and (max-width: 500px) {
 
+    #portfolio .col {
+        width: 300px;
+    }
+
+    #portfolio .boks,
+    .overlay {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+
+    #portfolio .col {
+        width: 800px;
+    }
+
+    #portfolio .boks,
+    .overlay {
+        width: 350px;
+        height: 350px;
+    }
+}
 
 #portfolio {
     margin: 0 auto;
@@ -886,13 +915,14 @@ section {
 
 #indhold .text {
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: relative;
     text-align: center;
     height: 50px;
     width: 500px;
     background: linear-gradient(to right, rgba(27, 176, 192, 0.65), rgba(13, 151, 163, 0.7));
     top: 50%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .overlay_indhold {
@@ -1084,28 +1114,25 @@ section {
 
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (max-width: 600px) {
 
-    #portfolio .col {
-        width: 300px;
-        height: auto;
-        margin-top: 15vw;
-    }
-
-    #portfolio .boks,
-    .overlay {
-        width: 250px;
-        height: 250px;
+    header nav {
+        min-height: 10vw;
     }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (max-width: 600px) {
 
     #indhold .infotext,
     .image {
-        flex-basis: 300px;
+        width: 300px;
     }
 }
+
+
+
+
+
 
 
 
