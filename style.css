@@ -42,8 +42,6 @@ footer {
     #om .container {
         max-width: 40rem;
     }
-
-
 }
 
 
@@ -444,37 +442,6 @@ section {
 /*-----------LANDING PAGE SLUT-----------*/
 
 /*-------------PORTFOLIO-----------------*/
-/*
-@media only screen and (max-width: 500px) {
-
-    #portfolio .col {
-        width: 300px;
-    }
-
-    #portfolio .boks {
-        width: 250px;
-    }
-
-    #portfolio . .overlay {
-        width: 250px;
-    }
-}
-*/
-
-/*
-@media only screen and (min-width: 700px) {
-
-    #portfolio .col {
-        width: 1000px;
-    }
-
-    #portfolio .boks,
-    .overlay {
-        width: 450px;
-        height: 450px;
-    }
-}
-*/
 
 #portfolio {
     margin: 0 auto;
@@ -563,7 +530,6 @@ section {
 
 
 #web .container {
-    top: 0;
     display: flex;
     flex-wrap: wrap;
     max-width: 100rem;
@@ -670,7 +636,7 @@ section {
     flex-basis: 800px;
     height: auto;
     flex-grow: 3;
-    padding: 0 60px;
+    /*    padding: 0 60px;*/
     line-height: 1.8rem;
 }
 
@@ -797,29 +763,21 @@ section {
 #animation .img1 {
     flex-basis: 500px;
     flex-grow: 1;
-
-
 }
 
 #animation .img2 {
     flex-basis: 500px;
     flex-grow: 1;
-
-
 }
 
 #animation .img3 {
     flex-basis: 500px;
     flex-grow: 1;
-
-
 }
 
 #animation .img4 {
     flex-basis: 500px;
     flex-grow: 1;
-    ;
-
 }
 
 
@@ -844,7 +802,7 @@ section {
     flex-wrap: wrap;
     max-width: 100rem;
     height: auto;
-    margin-bottom: 50px;
+    margin-bottom: 110px;
 }
 
 
@@ -896,7 +854,7 @@ section {
 }
 
 #indhold .titel {
-    margin: 30px 0 -45px 0;
+    margin: 30px 0 -30px 0;
 }
 
 
@@ -1061,7 +1019,7 @@ section {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
 
     #menu_bar,
     .menu_bg,
@@ -1097,9 +1055,31 @@ section {
     }
 }
 
+@media only screen and (max-width: 500px) {
 
+    #animation .infotext {
+        padding: 0 60px;
+    }
 
+}
 
+@media only screen and (max-width: 500px) {
+
+    #ux .infotext,
+    .overskrift {
+        padding: 0;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    #indhold .infotext,
+    .infotext_top {
+        padding: 0 20px;
+    }
+
+}
 
 
 
