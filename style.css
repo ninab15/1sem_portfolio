@@ -561,7 +561,7 @@ section {
     position: relative;
     text-align: center;
     height: 50px;
-    width: 500px;
+    width: 600px;
     background: linear-gradient(to right, rgba(27, 176, 192, 0.65), rgba(13, 151, 163, 0.7));
     top: 50%;
     font-family: 'Roboto', sans-serif;
@@ -581,8 +581,8 @@ section {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 258px;
-    width: 500px;
+    height: 310px;
+    width: 600px;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(0, 0, 0, 0.30);
@@ -869,7 +869,7 @@ section {
     position: relative;
     text-align: center;
     height: 50px;
-    max-width: 500px;
+    max-width: 600px;
     background: linear-gradient(to right, rgba(27, 176, 192, 0.65), rgba(13, 151, 163, 0.7));
     top: 50%;
     font-family: 'Roboto', sans-serif;
@@ -881,8 +881,8 @@ section {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 258px;
-    width: 500px;
+    height: 310px;
+    width: 600px;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(0, 0, 0, 0.30);
