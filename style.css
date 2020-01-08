@@ -832,7 +832,6 @@ section {
 #indhold .video {
     flex-basis: 600px;
     flex-grow: 1;
-    padding: 0 20px;
 }
 
 #indhold .video_top {
@@ -845,7 +844,6 @@ section {
     position: relative;
     flex-basis: 400px;
     flex-grow: 1;
-    margin: 0 70px;
     height: 310px;
 
 }
