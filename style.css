@@ -843,8 +843,8 @@ section {
     position: relative;
     flex-basis: 400px;
     flex-grow: 1;
-    margin-top: 70px;
-    height: 258px;
+    margin: 0 70px;
+    height: 310px;
 
 }
 
@@ -855,7 +855,7 @@ section {
     flex-wrap: wrap;
     max-width: 50rem;
     justify-content: space-between;
-    padding: 0 60px;
+    padding: 0 20px;
 }
 
 #indhold .titel {
